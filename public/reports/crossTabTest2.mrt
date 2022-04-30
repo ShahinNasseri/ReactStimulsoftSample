@@ -1,0 +1,2701 @@
+{
+  "ReportVersion": "2020.1.1",
+  "ReportGuid": "2d14edf914c3bda77071641427f652af",
+  "ReportName": "crossTabTest2",
+  "ReportAlias": "crossTabTest2",
+  "ReportFile": "crossTabTest2.mrt",
+  "ReportCreated": "/Date(1539387130000+0800)/",
+  "ReportChanged": "/Date(1539387130000+0800)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "PreviewSettings": 268435455,
+  "Styles": {
+    "0": {
+      "Ident": "StiStyle",
+      "Name": "选择条件同步",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "1": {
+      "Ident": "StiStyle",
+      "Name": "数据band",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "2": {
+      "Ident": "StiStyle",
+      "Name": "数据band-穿透",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:0,0,0",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "3": {
+      "Ident": "StiStyle",
+      "Name": "数据band_居中",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "4": {
+      "Ident": "StiStyle",
+      "Name": "数据band_居中_穿透",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:55,55,55",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "5": {
+      "Ident": "StiStyle",
+      "Name": "手机号",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "6": {
+      "Ident": "StiStyle",
+      "Description": "金额",
+      "Name": "金额",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "7": {
+      "Ident": "StiStyle",
+      "Name": "金额-穿透",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:55,55,55",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "8": {
+      "Ident": "StiStyle",
+      "Description": "表头栏",
+      "Name": "表头栏",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "9": {
+      "Ident": "StiStyle",
+      "Description": "统计数量",
+      "Name": "统计数量",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "10": {
+      "Ident": "StiStyle",
+      "Description": "统计数量-穿透",
+      "Name": "统计数量-穿透",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:55,55,55",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "11": {
+      "Ident": "StiStyle",
+      "Name": "总计合计",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "12": {
+      "Ident": "StiStyle",
+      "Description": "统计金额",
+      "Name": "统计金额",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "13": {
+      "Ident": "StiStyle",
+      "Description": "统计金额-穿透",
+      "Name": "统计金额-穿透",
+      "HorAlignment": "Right",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:55,55,55",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "14": {
+      "Ident": "StiStyle",
+      "Name": "时间",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Arial Unicode MS;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "15": {
+      "Ident": "StiStyle",
+      "Name": "页眉左",
+      "VertAlignment": "Bottom",
+      "Font": "Microsoft YaHei;;;",
+      "Border": "Bottom;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "16": {
+      "Ident": "StiStyle",
+      "Name": "页眉右",
+      "HorAlignment": "Right",
+      "VertAlignment": "Bottom",
+      "Font": "Microsoft YaHei;;;",
+      "Border": "Bottom;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "17": {
+      "Ident": "StiStyle",
+      "Name": "页脚左",
+      "Font": "Microsoft YaHei;;;",
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:188,188,188",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "18": {
+      "Ident": "StiStyle",
+      "Name": "页脚右",
+      "HorAlignment": "Right",
+      "Font": "Microsoft YaHei;;;",
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:188,188,188",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "19": {
+      "Ident": "StiStyle",
+      "Description": "分组表头居左加粗",
+      "Name": "分组表头居左加粗",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;Bold;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "20": {
+      "Ident": "StiStyle",
+      "Description": "序号",
+      "Name": "序号",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;9;;",
+      "Border": "All;;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:51,51,51",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    },
+    "21": {
+      "Ident": "StiStyle",
+      "Description": "报表名称",
+      "Name": "报表名称",
+      "HorAlignment": "Center",
+      "VertAlignment": "Center",
+      "Font": "Microsoft YaHei;12;;",
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "TextBrush": "solid:0,0,0",
+      "NegativeTextBrush": "solid:Red",
+      "AllowUseHorAlignment": true,
+      "AllowUseVertAlignment": true
+    }
+  },
+  "Dictionary": {
+    "Variables": {
+      "0": {
+        "Name": "orgName",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "orgName",
+        "Type": "System.String"
+      },
+      "1": {
+        "Name": "currentTime",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "currentTime",
+        "Type": "System.String"
+      },
+      "2": {
+        "Name": "currentUser",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "currentUser",
+        "Type": "System.String"
+      },
+      "3": {
+        "Name": "selectedConditions",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "selectedConditions",
+        "Type": "System.String"
+      },
+      "4": {
+        "Name": "hostName",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "hostName",
+        "Type": "System.String"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "roomTypeSummaryDtoList",
+        "Alias": "roomTypeSummaryDtoList",
+        "Columns": {
+          "0": {
+            "Name": "orgId",
+            "Index": -1,
+            "NameInSource": "orgId",
+            "Alias": "orgId",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "roomType",
+            "Index": -1,
+            "NameInSource": "roomType",
+            "Alias": "roomType",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "roomCount",
+            "Index": -1,
+            "NameInSource": "roomCount",
+            "Alias": "roomCount",
+            "Type": "System.Int32"
+          },
+          "3": {
+            "Name": "roomPoint",
+            "Index": -1,
+            "NameInSource": "roomPoint",
+            "Alias": "roomPoint",
+            "Type": "System.Decimal"
+          },
+          "4": {
+            "Name": "roomRate",
+            "Index": -1,
+            "NameInSource": "roomRate",
+            "Alias": "roomRate",
+            "Type": "System.Decimal"
+          },
+          "5": {
+            "Name": "avgRoomPrice",
+            "Index": -1,
+            "NameInSource": "avgRoomPrice",
+            "Alias": "avgRoomPrice",
+            "Type": "System.Decimal"
+          },
+          "6": {
+            "Name": "revPar",
+            "Index": -1,
+            "NameInSource": "revPar",
+            "Alias": "revPar",
+            "Type": "System.Decimal"
+          },
+          "7": {
+            "Name": "roomFee",
+            "Index": -1,
+            "NameInSource": "roomFee",
+            "Alias": "roomFee",
+            "Type": "System.Decimal"
+          },
+          "8": {
+            "Name": "emptyRoomCount",
+            "Index": -1,
+            "NameInSource": "emptyRoomCount",
+            "Alias": "emptyRoomCount",
+            "Type": "System.Int32"
+          },
+          "9": {
+            "Name": "debitSummary",
+            "Index": -1,
+            "NameInSource": "debitSummary",
+            "Alias": "debitSummary",
+            "Type": "System.Decimal"
+          },
+          "10": {
+            "Name": "url",
+            "Index": -1,
+            "NameInSource": "url",
+            "Alias": "url",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "DataSource.roomTypeSummaryDtoList"
+      },
+      "1": {
+        "Ident": "StiDataTableSource",
+        "Name": "channels",
+        "Alias": "channels",
+        "Columns": {
+          "0": {
+            "Name": "rt",
+            "Index": -1,
+            "NameInSource": "rt",
+            "Alias": "rt",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "rc",
+            "Index": -1,
+            "NameInSource": "rc",
+            "Alias": "rc",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "dc",
+            "Index": -1,
+            "NameInSource": "dc",
+            "Alias": "dc",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "dn",
+            "Index": -1,
+            "NameInSource": "dn",
+            "Alias": "dn",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "ic",
+            "Index": -1,
+            "NameInSource": "ic",
+            "Alias": "ic",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "im",
+            "Index": -1,
+            "NameInSource": "im",
+            "Alias": "im",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "v",
+            "Index": -1,
+            "NameInSource": "v",
+            "Alias": "v",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "u",
+            "Index": -1,
+            "NameInSource": "u",
+            "Alias": "u",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "DataSource.channels"
+      },
+      "2": {
+        "Ident": "StiDataTableSource",
+        "Name": "customers",
+        "Alias": "customers",
+        "Columns": {
+          "0": {
+            "Name": "rt",
+            "Index": -1,
+            "NameInSource": "rt",
+            "Alias": "rt",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "rc",
+            "Index": -1,
+            "NameInSource": "rc",
+            "Alias": "rc",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "dc",
+            "Index": -1,
+            "NameInSource": "dc",
+            "Alias": "dc",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "dn",
+            "Index": -1,
+            "NameInSource": "dn",
+            "Alias": "dn",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "ic",
+            "Index": -1,
+            "NameInSource": "ic",
+            "Alias": "ic",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "im",
+            "Index": -1,
+            "NameInSource": "im",
+            "Alias": "im",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "v",
+            "Index": -1,
+            "NameInSource": "v",
+            "Alias": "v",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "u",
+            "Index": -1,
+            "NameInSource": "u",
+            "Alias": "u",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "DataSource.customers"
+      },
+      "3": {
+        "Ident": "StiDataTableSource",
+        "Name": "checkins",
+        "Alias": "checkins",
+        "Columns": {
+          "0": {
+            "Name": "rt",
+            "Index": -1,
+            "NameInSource": "rt",
+            "Alias": "rt",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "rc",
+            "Index": -1,
+            "NameInSource": "rc",
+            "Alias": "rc",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "dc",
+            "Index": -1,
+            "NameInSource": "dc",
+            "Alias": "dc",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "dn",
+            "Index": -1,
+            "NameInSource": "dn",
+            "Alias": "dn",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "ic",
+            "Index": -1,
+            "NameInSource": "ic",
+            "Alias": "ic",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "im",
+            "Index": -1,
+            "NameInSource": "im",
+            "Alias": "im",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "v",
+            "Index": -1,
+            "NameInSource": "v",
+            "Alias": "v",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "u",
+            "Index": -1,
+            "NameInSource": "u",
+            "Alias": "u",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "DataSource.checkins"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "21334015a82a37fddca32babbda8156b",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;;;;;;solid:0,0,0",
+      "Brush": "solid:Transparent",
+      "Components": {
+        "0": {
+          "Ident": "StiPageHeaderBand",
+          "Name": "PageHeaderBand1",
+          "ClientRectangle": "0,0.4,43.86,0.7",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text30",
+              "Guid": "c2055257298fe25e13bd1279a7836680",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0,8.2,0.7",
+              "ComponentStyle": "页眉左",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{orgName}"
+              },
+              "VertAlignment": "Bottom",
+              "Font": "Microsoft YaHei;;;",
+              "Border": "Bottom;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 0,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 4
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text31",
+              "Guid": "a6f4a17c5c4f748bf6d46222b5aa8897",
+              "DockStyle": "Fill",
+              "ClientRectangle": "8.2,0,35.66,0.7",
+              "ComponentStyle": "页眉右",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{PageNumber}，{TotalPageCount}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Bottom",
+              "Font": "Microsoft YaHei;;;",
+              "Border": "Bottom;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 0,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 4
+              },
+              "Type": "Expression"
+            }
+          }
+        },
+        "1": {
+          "Ident": "StiPageFooterBand",
+          "Name": "PageFooterBand1",
+          "ClientRectangle": "0,30.45,43.86,0.7",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text44",
+              "Guid": "2af379ee280466286572d70ad82a7ab5",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0,7.6,0.7",
+              "ComponentStyle": "页脚左",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{currentUser}"
+              },
+              "Font": "Microsoft YaHei;;;",
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:188,188,188",
+              "Margins": {
+                "Left": 0,
+                "Right": 0,
+                "Top": 4,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text57",
+              "Guid": "437831759c0a402c31e95fa6ee343502",
+              "DockStyle": "Fill",
+              "ClientRectangle": "7.6,0,36.26,0.7",
+              "ComponentStyle": "页脚右",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{currentTime}"
+              },
+              "HorAlignment": "Right",
+              "Font": "Microsoft YaHei;;;",
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:188,188,188",
+              "Margins": {
+                "Left": 0,
+                "Right": 0,
+                "Top": 4,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            }
+          }
+        },
+        "2": {
+          "Ident": "StiReportTitleBand",
+          "Name": "ReportTitleBand1",
+          "ClientRectangle": "0,1.9,43.86,1.8",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "dc67bd28f9246fb52aea75ad61128acb",
+              "DockStyle": "Top",
+              "ClientRectangle": "0,0,43.86,1.2",
+              "ComponentStyle": "报表名称",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{ReportAlias}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;12;;",
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Type": "SystemVariables"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text46",
+              "Guid": "9200ea8852fb685f1f849806ccf42385",
+              "CanGrow": true,
+              "GrowToHeight": true,
+              "DockStyle": "Top",
+              "ClientRectangle": "0,1.2,43.86,0.6",
+              "ComponentStyle": "选择条件同步",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{selectedConditions}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "TextQuality": "Wysiwyg",
+              "AllowHtmlTags": true,
+              "Type": "Expression"
+            }
+          }
+        },
+        "3": {
+          "Ident": "StiHeaderBand",
+          "Name": "HeaderBand1",
+          "ClientRectangle": "0,4.5,43.86,1.4",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "Guid": "90a931c11889690f7d832df81a2c9e97",
+              "DockStyle": "Top",
+              "ClientRectangle": "0,0,43.86,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "INDICATORS"
+              },
+              "VertAlignment": "Center",
+              "Font": ";11;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "Guid": "1f7474f2ed8830e2be13175e54490e6f",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0.8,2.4,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TYPE"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text4",
+              "Guid": "9dff8ea5573789ff04c02c8181f182d7",
+              "DockStyle": "Left",
+              "ClientRectangle": "2.4,0.8,1.8,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "COUNT"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text5",
+              "Guid": "8f16be0e18957fe48ab9cf6567d7b6b7",
+              "DockStyle": "Left",
+              "ClientRectangle": "4.2,0.8,2,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TOTALPOINT"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text6",
+              "Guid": "40be9927e70cc81262200e01e28cd0d1",
+              "DockStyle": "Left",
+              "ClientRectangle": "6.2,0.8,2,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TOTALRATE"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text7",
+              "Guid": "e1ba0c796c118d584f47128fdeb60ec7",
+              "DockStyle": "Left",
+              "ClientRectangle": "8.2,0.8,1.8,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TOTALAVG"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text8",
+              "Guid": "7f7f50adb59f030594f8ccb877da994a",
+              "DockStyle": "Left",
+              "ClientRectangle": "10,0.8,1.6,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "RPAR"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text9",
+              "Guid": "c2c450944ecb9fee1c412ebd6e7ca5c6",
+              "DockStyle": "Left",
+              "ClientRectangle": "11.6,0.8,2.4,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TOTALFEE"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text10",
+              "Guid": "fcdc41aa16f8b72fc236210a147f9669",
+              "DockStyle": "Left",
+              "ClientRectangle": "14,0.8,1.6,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "NIGHTCOUNT"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            },
+            "9": {
+              "Ident": "StiText",
+              "Name": "Text11",
+              "Guid": "311285ebac74499d14d4bd1f4894f03e",
+              "DockStyle": "Left",
+              "ClientRectangle": "15.6,0.8,2.4,0.6",
+              "ComponentStyle": "表头栏",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "NIGHTRATE"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Type": "Expression"
+            }
+          }
+        },
+        "4": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand1",
+          "ClientRectangle": "0,6.7,43.86,0.6",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:0,0,0",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text12",
+              "Guid": "f6295e440cc61735b87cb529a80ec296",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0,2.4,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Hyperlink": {
+                "Value": "{roomTypeSummaryDtoList.url}"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.roomType}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text13",
+              "Guid": "70b3c3ff70752767d4351e2f6a343a19",
+              "DockStyle": "Left",
+              "ClientRectangle": "2.4,0,1.8,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.roomCount}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text14",
+              "Guid": "351edd732aba216da0942aec3183c1cf",
+              "DockStyle": "Left",
+              "ClientRectangle": "4.2,0,2,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.roomPoint}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text15",
+              "Guid": "b4901eb2c3f671107e627ce0276f026c",
+              "DockStyle": "Left",
+              "ClientRectangle": "6.2,0,2,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.roomRate}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiPercentageFormatService",
+                "NegativePattern": 0,
+                "GroupSeparator": ",",
+                "PositivePattern": 1,
+                "Symbol": "%"
+              },
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text16",
+              "Guid": "109f44afed0be2b26d80ab600ec518be",
+              "DockStyle": "Left",
+              "ClientRectangle": "8.2,0,1.8,0.6",
+              "ComponentStyle": "金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.avgRoomPrice}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 1,
+                "GroupSeparator": ","
+              },
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text17",
+              "Guid": "6463bd6ac466b9478d27769ae328fd66",
+              "DockStyle": "Left",
+              "ClientRectangle": "10,0,1.6,0.6",
+              "ComponentStyle": "金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.revPar}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 1,
+                "GroupSeparator": ","
+              },
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text18",
+              "Guid": "d11ba78b3e27a687f7dea805dcfc06c9",
+              "DockStyle": "Left",
+              "ClientRectangle": "11.6,0,2.4,0.6",
+              "ComponentStyle": "金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.roomFee}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 1,
+                "GroupSeparator": ","
+              },
+              "Type": "Expression"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text19",
+              "Guid": "ae097349d160b2ac9b3dca5f23a5d1f8",
+              "DockStyle": "Left",
+              "ClientRectangle": "14,0,1.6,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.emptyRoomCount}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "e5354bc414957c2f418aa779028f4146",
+              "DockStyle": "Left",
+              "ClientRectangle": "15.6,0,2.4,0.6",
+              "ComponentStyle": "数据band",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{roomTypeSummaryDtoList.debitSummary}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiPercentageFormatService",
+                "NegativePattern": 0,
+                "GroupSeparator": ",",
+                "PositivePattern": 1,
+                "Symbol": "%"
+              },
+              "Type": "Expression"
+            }
+          },
+          "DataSourceName": "roomTypeSummaryDtoList"
+        },
+        "5": {
+          "Ident": "StiFooterBand",
+          "Name": "FooterBand1",
+          "ClientRectangle": "0,8.1,43.86,0.6",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text21",
+              "Guid": "7bfbc0baf77610370f0155d7055b5cd8",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0,2.4,0.6",
+              "ComponentStyle": "总计合计",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "TOTAL"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text22",
+              "Guid": "313d7481f8913217d9c58c118bbf02aa",
+              "DockStyle": "Left",
+              "ClientRectangle": "2.4,0,1.8,0.6",
+              "ComponentStyle": "统计数量",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomCount)}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Totals"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "54b0dfbb5dee41e109f9bb4421822fd9",
+              "DockStyle": "Left",
+              "ClientRectangle": "4.2,0,2,0.6",
+              "ComponentStyle": "统计数量",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomPoint)}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Totals"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text24",
+              "Guid": "5b73cd9c544686b5ac2c582671dfcd5c",
+              "DockStyle": "Left",
+              "ClientRectangle": "6.2,0,2,0.6",
+              "ComponentStyle": "统计数量",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomPoint) / Sum(roomTypeSummaryDtoList.roomCount)}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiPercentageFormatService",
+                "NegativePattern": 0,
+                "GroupSeparator": ",",
+                "PositivePattern": 1,
+                "Symbol": "%"
+              },
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text25",
+              "Guid": "92f61bd1874da5a27b7cbb89664e776e",
+              "DockStyle": "Left",
+              "ClientRectangle": "8.2,0,1.8,0.6",
+              "ComponentStyle": "统计金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomFee) / Sum(roomTypeSummaryDtoList.roomPoint)}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 1,
+                "GroupSeparator": ","
+              },
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text26",
+              "Guid": "2d1474d250491f0d66e667e8f20720e4",
+              "DockStyle": "Left",
+              "ClientRectangle": "10,0,1.6,0.6",
+              "ComponentStyle": "统计金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomFee) / Sum(roomTypeSummaryDtoList.roomCount)}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "NegativePattern": 1,
+                "GroupSeparator": ","
+              },
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text27",
+              "Guid": "a1319570cad7785cb78e42a1fbb9ce8d",
+              "DockStyle": "Left",
+              "ClientRectangle": "11.6,0,2.4,0.6",
+              "ComponentStyle": "统计金额",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.roomFee)}"
+              },
+              "HorAlignment": "Right",
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Totals"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text28",
+              "Guid": "856a42d3872bf86591a0e3f580604f70",
+              "DockStyle": "Left",
+              "ClientRectangle": "14,0,1.6,0.6",
+              "ComponentStyle": "统计数量",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.emptyRoomCount)}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Totals"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text29",
+              "Guid": "23b62c6c96c6d5754d67a5134be9aa30",
+              "DockStyle": "Left",
+              "ClientRectangle": "15.6,0,2.4,0.6",
+              "ComponentStyle": "统计数量",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{Sum(roomTypeSummaryDtoList.emptyRoomCount)/Sum(roomTypeSummaryDtoList.roomCount)}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Microsoft YaHei;9;Bold;",
+              "Border": "All;;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:51,51,51",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiPercentageFormatService",
+                "NegativePattern": 0,
+                "GroupSeparator": ",",
+                "PositivePattern": 1,
+                "Symbol": "%"
+              },
+              "Type": "Totals"
+            }
+          }
+        },
+        "6": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand2",
+          "ClientRectangle": "0,9.5,43.86,3.2",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text32",
+              "Guid": "0114b4c30c61290741c468c2950e50dd",
+              "DockStyle": "Top",
+              "ClientRectangle": "0,0,43.86,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "CH"
+              },
+              "VertAlignment": "Center",
+              "Font": ";11;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiCrossTab",
+              "Name": "CrossTab1",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0.8,7.6,2.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "CanBreak": true,
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "Components": {
+                "0": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab1_RowTotal1",
+                  "Guid": "465bef8a772b8ab2d9caa56ccfe34c53",
+                  "ClientRectangle": "0,1.5,4.2,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "1": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab1_Row1_Title",
+                  "Guid": "7ec94bdcb9e8b0f07c89d8b735ec92ac",
+                  "MinSize": "2.4,0",
+                  "MaxSize": "2.4,0",
+                  "ClientRectangle": "0,0.25,2.4,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "TYPE"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab1_Row1"
+                },
+                "2": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab1_RowTotal2",
+                  "Guid": "d4e9afe1ce393228ea0dff0cc71d8a9d",
+                  "ClientRectangle": "2.4,1.5,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "3": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab1_Row2_Title",
+                  "Guid": "b057abd466ec09dc440ed61cea167d82",
+                  "MinSize": "1.8,0",
+                  "ClientRectangle": "2.4,0.25,1.8,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "COUNT"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab1_Row2"
+                },
+                "4": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab1_ColTotal1",
+                  "Guid": "c8e43d3e6d7fc1e3dd168b00f578cd74",
+                  "ClientRectangle": "6.25,0.25,0,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "5": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab1_LeftTitle",
+                  "Guid": "ec0eebece4b0912231f8bafa6ac910c0",
+                  "ClientRectangle": "0,0,4.2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "LeftTitle"
+                },
+                "6": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab1_ColTotal2",
+                  "Guid": "cb70319b24e20bd80095290b3097daf1",
+                  "ClientRectangle": "6.25,0.85,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "7": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab1_RightTitle",
+                  "Guid": "70a362b307931385e40d3083da55f126",
+                  "ClientRectangle": "4.25,0,2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "RightTitle"
+                },
+                "8": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab1_Row1",
+                  "Guid": "0eb89e0495ad71bfc14cea332e2a617d",
+                  "ClientRectangle": "0,1.5,2.4,0.6",
+                  "Alias": "rt",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rt"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{channels.rt}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{channels.rt}"
+                  },
+                  "TotalGuid": "465bef8a772b8ab2d9caa56ccfe34c53",
+                  "SortDirection": "None"
+                },
+                "9": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab1_Row2",
+                  "Guid": "69bb3bc244b52b83e5237bf7e5a260ad",
+                  "ClientRectangle": "2.4,1.5,1.8,0.6",
+                  "Alias": "rc",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rc"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{channels.rc}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{channels.rc}"
+                  },
+                  "TotalGuid": "d4e9afe1ce393228ea0dff0cc71d8a9d"
+                },
+                "10": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab1_Column1",
+                  "Guid": "1d0a05c92943230c10dd2c8ccda73f0a",
+                  "MinSize": "2,0",
+                  "ClientRectangle": "4.25,0.25,2,0.6",
+                  "Alias": "dn",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "dn"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{channels.dn}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{channels.dn}"
+                  },
+                  "TotalGuid": "c8e43d3e6d7fc1e3dd168b00f578cd74"
+                },
+                "11": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab1_Column2",
+                  "Guid": "525fcbd39bce94f813d68c77c1ce9837",
+                  "ClientRectangle": "4.25,0.85,2,0.6",
+                  "Alias": "im",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "im"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{channels.im}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{channels.im}"
+                  },
+                  "TotalGuid": "cb70319b24e20bd80095290b3097daf1"
+                },
+                "12": {
+                  "Ident": "StiCrossSummary",
+                  "Name": "CrossTab1_Sum1",
+                  "Guid": "0c27a9a677f5fc8375cacb6993183c7b",
+                  "ClientRectangle": "4.25,1.5,2,0.6",
+                  "Alias": "v",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "0"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{channels.v}"
+                  },
+                  "HorAlignment": "Center",
+                  "Summary": "None"
+                }
+              },
+              "DataSourceName": "channels",
+              "HorAlignment": "Left"
+            }
+          },
+          "DataSourceName": "channels"
+        },
+        "7": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand3",
+          "ClientRectangle": "0,13.5,43.86,3.2",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text33",
+              "Guid": "c7a43cf919fc6fc39b0b19643d63c5dd",
+              "DockStyle": "Top",
+              "ClientRectangle": "0,0,43.86,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "CA"
+              },
+              "VertAlignment": "Center",
+              "Font": ";11;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiCrossTab",
+              "Name": "CrossTab2",
+              "Guid": "3d82b0b44eaab5ffe3c19d7552b84786",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0.8,7.6,2.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "CanBreak": true,
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "Components": {
+                "0": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab2_RowTotal1",
+                  "Guid": "ae564cb5334dc6bd609acafef8cc8f3a",
+                  "ClientRectangle": "0,2.1,4.2,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "1": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab2_Row1_Title",
+                  "Guid": "6597c5cb3d4d081c75a574e708c064d9",
+                  "MinSize": "2.4,0",
+                  "ClientRectangle": "0,0.25,2.4,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "TYPE"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab2_Row1"
+                },
+                "2": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab2_RowTotal2",
+                  "Guid": "a82fda44b05ea9159bff77900c247237",
+                  "ClientRectangle": "2.4,2.1,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "3": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab2_Row2_Title",
+                  "Guid": "8cd85835cbed00d9c8ccfe6eefdbed29",
+                  "MinSize": "1.8,0",
+                  "ClientRectangle": "2.4,0.25,1.8,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "COUNT"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab2_Row2"
+                },
+                "4": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab2_ColTotal1",
+                  "Guid": "1d8e239f84542a6a2f1456e08863fc4e",
+                  "ClientRectangle": "6.25,0.25,0,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "5": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab2_LeftTitle",
+                  "Guid": "79e2ee0496ae80767d7d7f0ad0ee9d7c",
+                  "ClientRectangle": "0,0,4.2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "LeftTitle"
+                },
+                "6": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab2_ColTotal2",
+                  "Guid": "51d5e5400d073c96045b542ea6970bb5",
+                  "ClientRectangle": "6.25,0.85,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "7": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab2_RightTitle",
+                  "Guid": "33cf0e02f534ea5c616c18fb20a9321a",
+                  "ClientRectangle": "4.25,0,2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "RightTitle"
+                },
+                "8": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab2_Row1",
+                  "Guid": "ac3eb850cbacc29e289c743159128c4b",
+                  "ClientRectangle": "0,1.5,2.4,0.6",
+                  "Alias": "rt",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rt"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{customers.rt}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{customers.rt}"
+                  },
+                  "TotalGuid": "ae564cb5334dc6bd609acafef8cc8f3a",
+                  "SortDirection": "None"
+                },
+                "9": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab2_Row2",
+                  "Guid": "46ec5ef5660ae7a16dc22980e5cb6700",
+                  "ClientRectangle": "2.4,1.5,1.8,0.6",
+                  "Alias": "rc",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rc"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{customers.rc}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{customers.rc}"
+                  },
+                  "TotalGuid": "a82fda44b05ea9159bff77900c247237"
+                },
+                "10": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab2_Column1",
+                  "Guid": "bacdc910387288719dfaa28851f5beb0",
+                  "MinSize": "2,0",
+                  "ClientRectangle": "4.25,0.25,2,0.6",
+                  "Alias": "dn",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "dn"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{customers.dn}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{customers.dn}"
+                  },
+                  "TotalGuid": "1d8e239f84542a6a2f1456e08863fc4e"
+                },
+                "11": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab2_Column2",
+                  "Guid": "85bed9d25b3dc6272e1996347c33436f",
+                  "ClientRectangle": "4.25,0.85,2,0.6",
+                  "Alias": "im",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "im"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{customers.im}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{customers.im}"
+                  },
+                  "TotalGuid": "51d5e5400d073c96045b542ea6970bb5"
+                },
+                "12": {
+                  "Ident": "StiCrossSummary",
+                  "Name": "CrossTab2_Sum1",
+                  "Guid": "d2e2dc56d5b1415b6feddc705da16a20",
+                  "ClientRectangle": "4.25,1.5,2,0.6",
+                  "Alias": "v",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "0"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{customers.v}"
+                  },
+                  "HorAlignment": "Center",
+                  "Summary": "None"
+                }
+              },
+              "DataSourceName": "customers",
+              "HorAlignment": "Left"
+            }
+          },
+          "DataSourceName": "customers"
+        },
+        "8": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand4",
+          "ClientRectangle": "0,17.5,43.86,3.2",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text34",
+              "Guid": "42c9b3ecd9d41260b777e4e35dbadc47",
+              "DockStyle": "Top",
+              "ClientRectangle": "0,0,43.86,0.8",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "CI"
+              },
+              "VertAlignment": "Center",
+              "Font": ";11;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 6,
+                "Right": 6,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiCrossTab",
+              "Name": "CrossTab3",
+              "Guid": "7633673cf55a57e33208c62350c8f8f4",
+              "DockStyle": "Left",
+              "ClientRectangle": "0,0.8,7.6,2.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "CanBreak": true,
+              "Border": ";;;;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "Components": {
+                "0": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab3_RowTotal1",
+                  "Guid": "5e2f342adcc64591ddbbc60a9a1b0738",
+                  "ClientRectangle": "0,2.1,4.2,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "1": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab3_Row1_Title",
+                  "Guid": "397aee2f47bcce2379ff1c1a5c968ffc",
+                  "MinSize": "2.4,0",
+                  "ClientRectangle": "0,0.25,2.4,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "TYPE"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab3_Row1"
+                },
+                "2": {
+                  "Ident": "StiCrossRowTotal",
+                  "Name": "CrossTab3_RowTotal2",
+                  "Guid": "c355404cc7a5b302d9b00fc397716210",
+                  "ClientRectangle": "2.4,2.1,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "3": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab3_Row2_Title",
+                  "Guid": "72578afcc49be3ca791f0340482ca224",
+                  "MinSize": "1.8,0",
+                  "ClientRectangle": "2.4,0.25,1.8,1.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "COUNT"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "TypeOfComponent": "Row:CrossTab3_Row2"
+                },
+                "4": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab3_ColTotal1",
+                  "Guid": "160b17de0ef8f0bf33028e635fe5f1b2",
+                  "ClientRectangle": "6.05,0.25,0,1",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "5": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab3_LeftTitle",
+                  "Guid": "c3f5f3667fbfa4654a21cd4c8a344879",
+                  "ClientRectangle": "0,0,4.2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "LeftTitle"
+                },
+                "6": {
+                  "Ident": "StiCrossColumnTotal",
+                  "Name": "CrossTab3_ColTotal2",
+                  "Guid": "fc5726f6352eec6325f20cc51c15731b",
+                  "ClientRectangle": "6.05,0.85,0,0",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "Total"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black"
+                },
+                "7": {
+                  "Ident": "StiCrossTitle",
+                  "Name": "CrossTab3_RightTitle",
+                  "Guid": "ba61cc52b4ec7637e693c742701169b8",
+                  "ClientRectangle": "4.25,0,2,0.2",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Enabled": false,
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Border": "All;155,155,155;;;;;;solid:Black",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:105,105,105",
+                  "TypeOfComponent": "RightTitle"
+                },
+                "8": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab3_Row1",
+                  "Guid": "c6d484c6225b382ee7e81a767442a077",
+                  "ClientRectangle": "0,1.5,2.4,0.6",
+                  "Alias": "rt",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rt"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{checkins.rt}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{checkins.rt}"
+                  },
+                  "TotalGuid": "5e2f342adcc64591ddbbc60a9a1b0738",
+                  "SortDirection": "None"
+                },
+                "9": {
+                  "Ident": "StiCrossRow",
+                  "Name": "CrossTab3_Row2",
+                  "Guid": "81a33f13b425bc28481e455a116af766",
+                  "ClientRectangle": "2.4,1.5,1.8,0.6",
+                  "Alias": "rc",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "rc"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "HorAlignment": "Left",
+                  "Value": {
+                    "Value": "{checkins.rc}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{checkins.rc}"
+                  },
+                  "TotalGuid": "c355404cc7a5b302d9b00fc397716210"
+                },
+                "10": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab3_Column1",
+                  "Guid": "bd07644492c4ed558673ab50493dd223",
+                  "MinSize": "2,0",
+                  "ClientRectangle": "4.25,0.25,2,0.6",
+                  "Alias": "dn",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "dn"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{checkins.dn}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{checkins.dn}"
+                  },
+                  "TotalGuid": "160b17de0ef8f0bf33028e635fe5f1b2"
+                },
+                "11": {
+                  "Ident": "StiCrossColumn",
+                  "Name": "CrossTab3_Column2",
+                  "Guid": "8612809586c9fb65c4739e6696c442fa",
+                  "ClientRectangle": "4.25,0.85,2,0.6",
+                  "Alias": "im",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiCrossHeaderInteraction"
+                  },
+                  "Text": {
+                    "Value": "im"
+                  },
+                  "Font": "Microsoft YaHei;9;Bold;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:White",
+                  "TextBrush": "solid:51,51,51",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{checkins.im}"
+                  },
+                  "DisplayValue": {
+                    "Value": "{checkins.im}"
+                  },
+                  "TotalGuid": "fc5726f6352eec6325f20cc51c15731b"
+                },
+                "12": {
+                  "Ident": "StiCrossSummary",
+                  "Name": "CrossTab3_Sum1",
+                  "Guid": "45c2eda4fda828a9854cf59559af7281",
+                  "ClientRectangle": "4.25,1.5,2,0.6",
+                  "Alias": "v",
+                  "Restrictions": "AllowMove, AllowResize, AllowSelect, AllowChange",
+                  "Interaction": {
+                    "Ident": "StiInteraction"
+                  },
+                  "Text": {
+                    "Value": "0"
+                  },
+                  "Font": "Microsoft YaHei;9;;",
+                  "Border": "All;51,51,51;;;;;;solid:0,0,0",
+                  "Brush": "solid:255,255,255",
+                  "TextBrush": "solid:Black",
+                  "Margins": {
+                    "Left": 6,
+                    "Right": 6,
+                    "Top": 0,
+                    "Bottom": 0
+                  },
+                  "Value": {
+                    "Value": "{checkins.v}"
+                  },
+                  "HorAlignment": "Center",
+                  "Summary": "None"
+                }
+              },
+              "DataSourceName": "checkins",
+              "HorAlignment": "Left"
+            }
+          },
+          "DataSourceName": "checkins"
+        }
+      },
+      "PaperSize": "A4",
+      "PageWidth": 46.4,
+      "PageHeight": 28.5,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 1.27,
+        "Right": 1.27,
+        "Top": 1.27,
+        "Bottom": 1.27
+      }
+    }
+  }
+}
